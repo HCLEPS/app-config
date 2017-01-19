@@ -1,6 +1,8 @@
 security:
   basic:
     enabled: false
+ user:
+   password: password
 
 management:
   security:
@@ -16,4 +18,3 @@ spring: # <---NEW SECTION
   cloud:
     services:
       registrationMethod: direct
-      
